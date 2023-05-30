@@ -1,0 +1,25 @@
+@media (max-width:768px) {
+    .column{
+        flex: 100%;
+    }
+}
+    
+.img1{
+    max-width: 99%;
+    max-height: 99%;
+} 
+
+.img2{
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.img3{
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.img4{
+    max-width: 99%;
+    max-height: 99%;
+}

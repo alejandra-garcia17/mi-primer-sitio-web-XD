@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: black;
+  }
+
+  .image-slider img {
+    max-width: 99%;
+    max-height: 99%;
+  }
+
+  .button-slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+  }
+
+  .button-slider:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .gallery-container {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .gallery-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .show-gallery {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }

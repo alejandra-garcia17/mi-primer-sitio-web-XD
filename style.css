@@ -111,4 +111,232 @@ p {color:blue; font-size:20px;}p
  }
 }
     
-    
+                            /* Codigo creado por CHATGPT*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+}
+
+/* Estilos para el pie de página */
+
+ footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .brand {
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el video */
+  video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos generales */
+
+/*body {
+    background-color: pink;
+    color: darkblue;
+  }
+  
+  h1 {
+    color: red;
+    font-size: 50px;
+  }
+  
+  h2 {
+    color: rgb(0, 255, 64);
+    font-size: 18px;
+  }
+  
+  p {
+    color: blue;
+    font-size: 20px;
+  }
+  
+  /* Estilos para el contenedor principal */
+  /*.container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilos para las filas y columnas */
+  /*.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  
+  /* Estilos para la barra de navegación */
+  /*.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(23, 24, 24);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  li > a {
+    padding: 8px 24px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20, 20, 20, 0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap: 70px;
+      font-size: 40px;
+    }
+  }
+  
+  /* Estilos para el pie de página */
+  /*footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para el video */
+  /*video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para la sección del boletín */
+  .newsletter {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .newsletter .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .newsletter-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
